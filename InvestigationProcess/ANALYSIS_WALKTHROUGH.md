@@ -43,7 +43,7 @@ warrants immediate drill-down.
 
 ### Analyst Decision
 > *"Spike at 08:00 on DESKTOP-S9N6621. High-severity events present. Narrowing timeframe to
-> 08:00–09:00 for focused investigation."*
+> 08:00–08:30 for focused investigation."*
 
 ---
 
@@ -94,7 +94,7 @@ of `Office_Compatibility_Update.cmd` and trace its parent process:
 data.win.eventdata.commandLine: *Office_Compatibility_Update.cmd*
 ```
 
-Timeframe: `Sep 30, 2026 @ 08:00:00 → 09:00:00`
+Timeframe: `Sep 30, 2026 @ 08:00:00 → 08:30:00`
 
 ![Process Execution — Parent-Child Chain](./Image/Process3.png)
 *Figure 3: DQL query result showing cmd.exe spawned by explorer.exe executing Office_Compatibility_Update.cmd.*
@@ -174,7 +174,7 @@ data.win.eventdata.processGuid: *<GUID>*
 data.win.eventdata.parentProcessGuid: *<GUID>*
 
 # Filter by agent and timeframe
-agent.name: DESKTOP-S9N6621 AND @timestamp:[2026-09-30T08:00:00 TO 2026-09-30T09:00:00]
+agent.name: DESKTOP-S9N6621 AND @timestamp:[2026-09-30T08:00:00 TO 2026-09-30T08:30:00]
 ```
 
 ---
