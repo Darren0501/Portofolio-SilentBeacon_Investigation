@@ -39,6 +39,10 @@ User Click → .cmd (masqueraded) → .ps1 → .cmd → .ps1 (orchestrator)
 
 📄 [Full Incident Response Report](./InvestigationResult/INCIDENT_REPORT.md)
 
+## Investigation Processes
+
+📄 [Investigation Processes](./InvestigationProcess/ANALYSIS_WALKTHROUGH.md)
+
 ## Skills Demonstrated
 
 - Wazuh SIEM alert triage and investigation
