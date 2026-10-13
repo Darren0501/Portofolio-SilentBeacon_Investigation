@@ -47,8 +47,6 @@ The attacker established a **four-stage execution chain** (`.cmd → .ps1 → .c
 
 ## 3. Incident Timeline
 
-> Timestamps are derived from Wazuh/Sysmon event logs. Fill in actual timestamps from your Wazuh dashboard.
-
 | Timestamp (UTC) | Event |
 |---|---|
 | `[T+00:00]` | `Office_Compatibility_Update.cmd` spawned by `explorer.exe` — user execution | 
